@@ -1,10 +1,10 @@
 import './InputText.css'
 
-export const InputText = () => {
+export const InputText = (props) => {
     return(
-        <div>
-            <label> Nome</label>
-            <input />
+        <div className='input-text'>
+            <label>{props.label}</label>
+            <input placeholder={props.placeholder}/>
         </div>
     )
 }
