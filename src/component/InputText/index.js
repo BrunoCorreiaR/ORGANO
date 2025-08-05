@@ -1,12 +1,3 @@
-import './InputText.css'
-
-function InputText(){
-    return(
-        <div>
-            <label> Nome</label>
-            <input />
-        </div>
-    )
-}
+import { InputText } from "./InputTex";
 
 export default InputText
